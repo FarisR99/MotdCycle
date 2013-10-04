@@ -1,0 +1,19 @@
+name: MotdCycle
+version: 1.0.0
+main: me.faris.motdcycle.Main
+description: Make the MOTD change automatically after a specific amount of time!
+author: KingFaris10
+commands:
+   motdcycle:
+     description: The MotdCycle command!
+     usage: /<command>
+   addmotd:
+     description: Add an MOTD.
+     usage: /<command> <motd>
+   deletemotd:
+     description: Delete an MOTD.
+     usage: /<command> <motd|motdposition>
+     aliases: delmotd
+   listmotds:
+     description: List the MOTDs.
+     usage: /<command>
